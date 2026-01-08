@@ -3,7 +3,7 @@
     "name": "SnapMeasure",
     "slug": "SnapMeasure",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/images/icon.png",
     "scheme": "snapmeasure",
     "userInterfaceStyle": "automatic",
@@ -38,7 +38,8 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true,
